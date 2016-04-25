@@ -4,7 +4,7 @@ Add support for apt-based dependencies during both compile and runtime.
 
 ## Usage
 
-This buildpack works best with [heroku-buildpack-multi](https://github.com/ddollar/heroku-buildpack-multi) so that it can be used with your app's existing buildpacks.
+This buildpack works best with [heroku-buildpack-multi](https://github.com/devendrawani/heroku-buildpack-multi) so that it can be used with your app's existing buildpacks.
 
 Include a list of apt package names to be installed in a file named `Aptfile`
 
@@ -12,7 +12,7 @@ Include a list of apt package names to be installed in a file named `Aptfile`
 
 #### .buildpacks
 
-    https://github.com/ddollar/heroku-buildpack-apt
+    https://github.com/devendrawani/heroku-buildpack-apt
     https://github.com/heroku/heroku-buildpack-ruby
 
 #### Aptfile
